@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lowana</title>
+    <style>
+      body {margin: 0; height:100%; background-color: rgb(0, 0, 0); color:rgb(255, 255, 255); cursor: none;}
+      #canvas {position:absolute;width: 100%;height:100%;}
+      video {display:none;}
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <input id="load" type="file" accept="video/*"/>
+    <canvas id="canvas"></canvas>
+    <canvas id="camCanvas" style="display:none"></canvas>
+    <canvas id="bakCanvas" style="display:none"></canvas>
+    <video id="player" src="./content.mp4" autoplay loop width="640" height="480"></video>
+    <video id="webcam" autoplay width="640" height="480"></video>
+    <script src="script.js" defer></script>
+  </body>
+</html>
+

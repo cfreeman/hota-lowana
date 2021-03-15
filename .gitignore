@@ -1,0 +1,6 @@
+.DS_Store
+content.mp4
+lowana.app
+.cache
+dist
+node_modules

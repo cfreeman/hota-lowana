@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@tensorflow/tfjs-core": "^3.3.0",
+    "cssnano": "^4.1.10"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
+    "@tensorflow-models/coco-ssd": "^2.2.1",
+    "@tensorflow/tfjs": "^3.3.0",
+    "@tensorflow/tfjs-converter": "^2.8.6",
+    "immutable": "^4.0.0-rc.12",
+    "node-fetch": "^2.6.1"
+  }
+}
