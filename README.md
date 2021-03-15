@@ -3,8 +3,13 @@
 This small javascript application uses a webcam and tensorflow to detect
 the prescence of people. It will adjust video playback speed, volume and saturation based on the amount of activity. More activity = faster, louder and brighter video.
 
-parcel build index.html --public-url https://cfreeman.github.io/hota-lowana/
-parcel index.html
+### DEVELOPMENT
+
+To build a demo:
+* parcel build index.html --public-url https://cfreeman.github.io/hota-lowana/
+
+To run a local development instance
+* parcel index.html
 
 ### TODO
 * ~~Remove debug scripts.~~
@@ -52,6 +57,7 @@ parcel index.html
 
 ### TROUBLESHOOTING
 
+TBD.
 
 ### LICENSE
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
