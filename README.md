@@ -1,6 +1,6 @@
 # HOTA-lowana
 
-This small javascript application uses a webcam and tensorflow to detect
+This javascript application uses a webcam and tensorflow to detect
 the prescence of people. It will adjust video playback speed, volume and saturation based on the amount of activity. More activity = faster, louder and brighter video.
 
 ### DEVELOPMENT
@@ -47,6 +47,7 @@ To run a local development instance
 * Build application from applescript.
 
 * Notifications - Do Not Disturb - Always On.
+* software update - disable automatic updates.
 * Users & Groups - Login Options - Automatic login.
 * Users * Groups - hota-cg1 - login items - add startup app.
 * Dock & Menu Bar - automatically hide and show the dock.
@@ -54,6 +55,8 @@ To run a local development instance
 * Energy Saver - Start up automatically after a power failiure.
 * Desktop & Screen Saver - Screen Saver - Start after - never.
 * Desktop & Screen Saver - Desktop - Colours - black.
+* Change airdrop permissions
+* ?? Configure the mini so that it reboots each night. ??
 
 ### TROUBLESHOOTING
 
